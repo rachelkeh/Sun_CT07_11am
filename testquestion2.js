@@ -11,5 +11,6 @@ function draw() {
     background("black")
     if (mouse.presses()) {
         circle = new Sprite(mouse.x, mouse.y, 30);
+        circle.bounciness = 5;
     }
 }
