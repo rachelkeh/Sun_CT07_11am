@@ -8,6 +8,6 @@ function setup() {
 function draw() {
 
     if (mouse.presses()) {
-        circle = new Spite(mouse.x, mouse.y, 30);
+        circle = new Sprite(mouse.x, mouse.y, 30);
     }
 }
