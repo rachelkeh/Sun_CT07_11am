@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    background("")
+    background("black")
     if (mouse.presses()) {
         circle = new Sprite(mouse.x, mouse.y, 30);
     }
