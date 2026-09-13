@@ -3,7 +3,7 @@ let circle;
 function setup() {
     createCanvas(600, 400);
     background("white");
-    world.
+    world.gravity.y = 2;
 }
 
 function draw() {
